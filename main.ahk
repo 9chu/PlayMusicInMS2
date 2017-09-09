@@ -4,7 +4,7 @@ midi := new Midi()
 midi.SetupDeviceMenus()
 return
 
-; µÍ8¶È
+; ä½Ž8åº¦
 MidiNoteOnC2:
     Send, {z down}
     Return
@@ -12,7 +12,7 @@ MidiNoteOnC2:
 MidiNoteOffC2:
     Send, {z up}
     Return
-    
+
 MidiNoteOnC#2:
     Send, {s down}
     Return
@@ -20,7 +20,7 @@ MidiNoteOnC#2:
 MidiNoteOffC#2:
     Send, {s up}
     Return
-    
+
 MidiNoteOnD2:
     Send, {x down}
     Return
@@ -28,7 +28,7 @@ MidiNoteOnD2:
 MidiNoteOffD2:
     Send, {x up}
     Return
-    
+
 MidiNoteOnD#2:
     Send, {d down}
     Return
@@ -36,7 +36,7 @@ MidiNoteOnD#2:
 MidiNoteOffD#2:
     Send, {d up}
     Return
-    
+
 MidiNoteOnE2:
     Send, {c down}
     Return
@@ -44,7 +44,7 @@ MidiNoteOnE2:
 MidiNoteOffE2:
     Send, {c up}
     Return
-    
+
 MidiNoteOnF2:
     Send, {v down}
     Return
@@ -52,7 +52,7 @@ MidiNoteOnF2:
 MidiNoteOffF2:
     Send, {v up}
     Return
-    
+
 MidiNoteOnF#2:
     Send, {g down}
     Return
@@ -60,7 +60,7 @@ MidiNoteOnF#2:
 MidiNoteOffF#2:
     Send, {g up}
     Return
-    
+
 MidiNoteOnG2:
     Send, {b down}
     Return
@@ -68,7 +68,7 @@ MidiNoteOnG2:
 MidiNoteOffG2:
     Send, {b up}
     Return
-    
+
 MidiNoteOnG#2:
     Send, {h down}
     Return
@@ -76,7 +76,7 @@ MidiNoteOnG#2:
 MidiNoteOffG#2:
     Send, {h up}
     Return
-    
+
 MidiNoteOnA2:
     Send, {n down}
     Return
@@ -84,7 +84,7 @@ MidiNoteOnA2:
 MidiNoteOffA2:
     Send, {n up}
     Return
-    
+
 MidiNoteOnA#2:
     Send, {j down}
     Return
@@ -92,7 +92,7 @@ MidiNoteOnA#2:
 MidiNoteOffA#2:
     Send, {j up}
     Return
-    
+
 MidiNoteOnB2:
     Send, {m down}
     Return
@@ -101,7 +101,7 @@ MidiNoteOffB2:
     Send, {m up}
     Return
 
-; ¸ß8¶È
+; é«˜8åº¦
 MidiNoteOnC3:
     Send, {y down}
     Return
@@ -109,7 +109,7 @@ MidiNoteOnC3:
 MidiNoteOffC3:
     Send, {y up}
     Return
-    
+
 MidiNoteOnC#3:
     Send, {7 down}
     Return
@@ -117,7 +117,7 @@ MidiNoteOnC#3:
 MidiNoteOffC#3:
     Send, {7 up}
     Return
-    
+
 MidiNoteOnD3:
     Send, {u down}
     Return
@@ -125,7 +125,7 @@ MidiNoteOnD3:
 MidiNoteOffD3:
     Send, {u up}
     Return
-    
+
 MidiNoteOnD#3:
     Send, {8 down}
     Return
@@ -133,7 +133,7 @@ MidiNoteOnD#3:
 MidiNoteOffD#3:
     Send, {8 up}
     Return
-    
+
 MidiNoteOnE3:
     Send, {i down}
     Return
@@ -141,7 +141,7 @@ MidiNoteOnE3:
 MidiNoteOffE3:
     Send, {i up}
     Return
-    
+
 MidiNoteOnF3:
     Send, {o down}
     Return
@@ -149,7 +149,7 @@ MidiNoteOnF3:
 MidiNoteOffF3:
     Send, {o up}
     Return
-    
+
 MidiNoteOnF#3:
     Send, {0 down}
     Return
@@ -157,7 +157,7 @@ MidiNoteOnF#3:
 MidiNoteOffF#3:
     Send, {0 up}
     Return
-    
+
 MidiNoteOnG3:
     Send, {p down}
     Return
@@ -165,7 +165,7 @@ MidiNoteOnG3:
 MidiNoteOffG3:
     Send, {p up}
     Return
-    
+
 MidiNoteOnG#3:
     Send, {- down}
     Return
@@ -173,7 +173,7 @@ MidiNoteOnG#3:
 MidiNoteOffG#3:
     Send, {- up}
     Return
-    
+
 MidiNoteOnA3:
     Send, {] down}
     Return
@@ -181,7 +181,7 @@ MidiNoteOnA3:
 MidiNoteOffA3:
     Send, {] up}
     Return
-    
+
 MidiNoteOnA#3:
     Send, {= down}
     Return
@@ -189,7 +189,7 @@ MidiNoteOnA#3:
 MidiNoteOffA#3:
     Send, {= up}
     Return
-    
+
 MidiNoteOnB3:
     Send, {\ down}
     Return
@@ -197,4 +197,3 @@ MidiNoteOnB3:
 MidiNoteOffB3:
     Send, {\ up}
     Return
-    
